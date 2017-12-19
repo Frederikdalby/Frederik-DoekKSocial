@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="lib/css/bootstrap.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="lib/css/bootstrap-theme.css">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+
+        </div>
+        <ul class="nav navbar-nav">
+
+            <li><a href="events.html">Begivenheder</a></li>
+            <li><a href="attendingEvents.html">Deltagende events</a></li>
+            <li><a href="userEvent.html">Mine begivenheder</a></li>
+            <li><a href="createEvent.html">Opret begivenhed</a></li>
+            <li><a href="user.html">Min profil</a></li>
+            <button class="pushButton" id="LogoutBtn">Log ud</button>
+        </ul>
+    </div>
+</nav>
+
+<div class="container">
+
+    <div class="page-sub-header">
+        <h2>Opdater</h2>
+        <p>Det valgte event</p>
+    </div>
+
+    <div class="createEvent">
+        <div class="form-group">
+            <label class="control-label" for="updateEventName">Begivenhedsnavn</label>
+            <input type="text" placeholder="Det nye navn" id="updateEventName" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label class="control-label" for="updateLocation">Lokation</label>
+            <input type="text" placeholder="Ny lokation" id="updateLocation" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label class="control-label" for="updateEventDate">Dato</label>
+            <input type="text" placeholder="Nyt tidspunkt" id="updateEventDate" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label class="control-label" for="updateDescription">Beskrivelse</label>
+            <input type="text" placeholder="ændre beskrivelse" id="updateDescription" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label class="control-label" for="updatePrice">Pris</label>
+            <input type="number" placeholder="Juster pris" id="updatePrice" class="form-control" required>
+        </div>
+        <button class="btn btn-default" id="update-event-button">Godkend ændringer</button>
+    </div>
+</div>
+
+
+
+
+<script src="lib/js/jquery-3.2.1.js"></script>
+<script src="lib/js/bootstrap.js"></script>
+<script src="js/sdk.js"></script>
+<script src="js/eventUpdater.js.js"></script>
+
+</body>
+</html>

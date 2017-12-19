@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+    <link rel="stylesheet" href="lib/css/bootstrap.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="lib/css/bootstrap-theme.css">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+        </div>
+        <ul class="nav navbar-nav">
+
+            <li><a href="events.html">Begivenheder</a></li>
+            <li><a href="attendingEvents.html">Deltagende events</a></li>
+            <li><a href="userEvent.html">Mine begivenheder</a></li>
+            <li><a href="createEvent.html">Opret begivenhed</a></li>
+            <li><a href="user.html">Min profil</a></li>
+            <button class="pushButton" id="LogoutBtn">Log ud</button>
+
+        </ul>
+    </div>
+</nav>
+
+<div class="loginBox">
+
+
+</div>
+
+<div class="loginBox">
+
+    <div id="login">
+
+        <form method="post">
+
+            <fieldset class="clearfix">
+
+                <div class="signup">
+
+
+
+                    <p><input type="text" placeholder="Eventnavn" id="createEventName"></p>
+                    <p><input type="text" placeholder="Lokation" id="createEventLocation"></p>
+                    <p><input type="text" placeholder="Pris" id="createEventPrice"></p>
+                    <p><input type="text" placeholder="Dato" id="createEventDate"></p>
+                    <p><input type="text"  placeholder="Beskrivelse" id="createEventDescription"></p>
+
+
+                </div>
+
+            </fieldset>
+
+        </form>
+
+        <button class="pushButton" id="createEventBtn">Opret begivenhed</button>
+
+
+
+
+
+    </div> <!-- end login -->
+
+
+
+
+</div>
+
+
+<script src="js/sdk.js"></script>
+<script src="lib/js/jquery-3.2.1.js"></script>
+<script src="js/createEvent.js"></script>
+<script src="js/logout.js"></script>
+<script src="lib/js/bootstrap.js"></script>
+
+</body>
+</html>

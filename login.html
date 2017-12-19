@@ -1,0 +1,49 @@
+<head>
+    <meta charset="UTF-8">
+    <title>Døk social</title>
+
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="loginBox">
+    <img class="loginLogo" src="lib/img/logo2.png"> </a>
+    <div id="login">
+
+        <form method="post">
+
+            <fieldset class="clearfix">
+
+                <!--Input boxes til username og password-->
+
+                <p><span class="fontawesome-user"></span><input type="text" id="inputEmail" placeholder="Email"></p>
+                <p><span class="fontawesome-lock"></span><input type="password" id="inputPassword"
+                                                                placeholder="Password"></p>
+
+            </fieldset>
+
+        </form>
+
+        <button class="pushButton" id="LoginBtn">Login</button>
+
+
+        <!--Redirecter til opret bruger, hvis man ikke har en bruger-->
+        <p>Er du ikke bruger? <a href="createUser.html" class="blue">Opret Bruger her</a><span
+                class="fontawesome-arrow-right"></span></p>
+
+    </div> <!-- end login -->
+
+</div>
+
+
+<div class="footer"><h5>© All Rights Reserved - Frederik Dalby Andersen</h5>
+</div>
+
+
+<script src="lib/js/jquery-3.2.1.js"></script>
+<script src="js/sdk.js"></script>
+<script src="js/login.js"></script>
+
+</body>
